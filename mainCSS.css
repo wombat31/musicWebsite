@@ -8,27 +8,36 @@ header{
     height:30px;
     background-color: bisque;
 }
+li{
+    background-color: aquamarine;
+    float:left;
+    width:25%;
+    height:30px;
+    list-style: none;
+    text-align: center;
+   
+}
 #contentHolder1{
     height:250px;
-    width:33.4%;
+    width:50%;
     float:left;
     background-color: blue;
 }
 #contentHolder2{
     height:250px;
-    width:66.3%;
+    width:50%;
     float:left;
     background-color:green;
 }
 #contentHolder3{
     height:250px;
-    width:33.4%;
+    width:50%;
     float:left;
     background-color:red;
 }
 #contentHolder4{
     height:250px;
-    width:66.3%;
+    width:50%;
     float:left;
     background-color:pink;
 }
