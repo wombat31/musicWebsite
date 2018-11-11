@@ -52,27 +52,46 @@ li{
     
 }
 
-#contentHolder2{
+#ch2{
     height:250px;
     width:50%;
     float:left;
     background-color:green;
 }
-#contentHolder3{
+#ch3{
     height:250px;
     width:50%;
     float:left;
     background-color:red;
 }
-#contentHolder4{
+#ch4{
     height:250px;
     width:50%;
     float:left;
     background-color:pink;
 }
-#contentHolder5{
+#ch5{
     height:250px;
     width:100%;
     float:left;
     background-color:magenta;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #ch1{
+        width: 100%;
+    }
+    #ch2{
+        width:100%;
+    }
+    #ch3{
+        width:100%;
+    }
+    #ch4{
+        width:100%;
+    }
+    #ch5{
+        width:100%;
+    }
 }
