@@ -93,22 +93,108 @@ li{
     background-color:red;
 }
 
-.thumb {width:33%;
+#ch3Title{
     float:left;
-
+    height:20%;
+    width:100%;
+    color:white;
+    background-color: black;
 }
+/*
+#thumb {
+    float:left;
+    width:33%;
+    height:40%;
+}*/
+
+#ch3Image1 {
+    float:left;
+    width: 33%;
+    height:40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+}
+
+#ch3Image2 {
+    float:left;
+    width: 33%;
+    height:40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   
+}
+
+#ch3Image3 {
+    float:left;
+    width: 33%;
+    height:40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+ 
+}
+
+#ch3Image4 {
+    float:left;
+    width: 33%;
+    height:40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+ 
+}
+
+#ch3Image5 {
+    float:left;
+    width: 33%;
+    height:40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+ 
+}
+
+#ch3Image6 {
+    float:left;
+    width: 33%;
+    height:40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+ 
+}
+
 #ch4{
     height:250px;
     width:50%;
     float:left;
     background-color:pink;
 }
+
+#ch4Title{
+    float:left;
+    height:20%;
+    width:100%;
+    color:white;
+    background-color: black;
+}
+
+#myCanvas{
+    float:left;
+    background:white;
+}
+
+#ch4Para{
+    float:left;
+    width:25%;
+    overflow-wrap:break-word;
+}
+
 #ch5{
     height:250px;
     width:100%;
     float:left;
     background-color:magenta;
 }
+
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
